@@ -1,0 +1,5 @@
+
+<hr>2019-03-29 16:15:49 vendég<br>asdasd
+<hr>2019-03-29 16:16:02 vendég<br>Második üzenet
+<hr>2019-03-29 16:16:12 333333<br>Harmadik üzenet
+<hr>2019-03-29 16:16:27 Négyes<br>A negyedik üzenet

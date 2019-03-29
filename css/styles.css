@@ -1,0 +1,166 @@
+body{
+    background-color: cadetblue;
+}
+.opening{
+    width: 960px;
+    background-color: white;
+    margin: auto;
+}
+div{
+    display: block;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background-color: rgba(0, 153, 204,0.3);
+    opacity: 80%;
+}
+#head-img{
+    display: block;
+    width: 100%;
+}
+/*Navigációs sáv
+----------------------------------------------------*/
+nav{
+    background:    #95c1e9;
+    background:    -webkit-linear-gradient(#95c1e9, #4287c6);
+    background:    linear-gradient(#95c1e9, #4287c6);
+    font:          normal 400 17px/1 "Overlock", cursive;;
+    padding: 0;
+}
+nav li{
+    display: inline;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+nav a{
+    width:         80px;
+    border:        0;
+    text-decoration: none;
+    padding:       6px 10px;
+    color:         #ffffff;
+    display:       inline-block;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}
+nav a:hover{
+    background:    #035192;
+    background:    -webkit-linear-gradient(#035192, #4287c6);
+    background:    linear-gradient(#035192, #4287c6);
+    text-shadow:   1px 1px #000000;
+}
+#head form{
+    display: inline;
+    color:         #ffffff;
+    font:          normal 400 17px/1 "Overlock", cursive;;
+    text-shadow:   1px 1px #000000;
+}
+form #submit {
+    background:    #95c1e9;
+    background:    -webkit-linear-gradient(#95c1e9, #4287c6);
+    background:    linear-gradient(#95c1e9, #4287c6);
+    border:        0;
+    width:         120px;
+    text-decoration: none;
+    border-radius: 5px;
+    padding:       8px 5px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal 400 17px/1 "Overlock", cursive;
+    text-align:    center;
+    text-shadow:   1px 1px #000000;
+}form #submit:hover{
+    background:    #035192;
+    background:    -webkit-linear-gradient(#035192, #4287c6);
+    background:    linear-gradient(#035192, #4287c6);
+}
+input{
+    width: 100px;
+}
+/*adatok.php
+----------------------------------------------------*/
+table#database{
+    margin: auto;
+    margin-top: 2em;
+    border-collapse: collapse;
+}
+#database td, #database th{
+    border: 1px solid black;
+}
+#database th{
+    background-color: blanchedalmond;
+}
+#database tr:nth-child(odd){
+    background-color: #d4e1ee;   
+}
+#database tr:nth-child(even){
+    background-color:#99ccff;
+}
+#database tr:hover{
+    background-color: aqua;
+}
+#szures{
+    display: block;
+    text-align: center;
+}
+
+
+/*Rendelési idő
+----------------------------------------------------*/
+fieldset{
+    margin: auto;
+    width: 500px;
+}
+table#rendelesiido{
+    margin: auto;
+    margin-top: 2em;
+    border-collapse: collapse;
+}
+#rendelesiido th{
+    border-collapse: collapse;
+}
+ #rendelesiido td {
+    margin: auto;
+    margin-top: 2em;
+    border: 2px solid black;
+}
+#rendelesiido td:hover{
+    color: burlywood;
+    background-color: crimson;
+}
+#rendelesiido tr:nth-child(1){
+    background-color: white;
+}
+#rendelesiido tr:nth-child(2){
+    background-color: #d4d7db;
+}
+#rendelesiido tr:nth-child(3){
+    background-color: #b7b7b7;
+}
+legend{
+    
+    display: block;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: none;
+}
+
+/*Üzenetek
+----------------------------------------------------*/
+#combox{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#cbox,#cname{
+    margin: auto;
+}
+#comments{
+    text-align: center;
+}
